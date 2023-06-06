@@ -1,0 +1,100 @@
+body {
+  background-color:white;
+  font: Arial, sans-serif, sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"],
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+form input[type="text"],
+form input[type="number"],
+form input[type="date"] {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+form button {
+   background-color: #333;
+   color: #fff;
+   cursor: pointer;
+   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+#budget-info {
+  margin-top: 30px;
+}
+
+#remaining-budget {
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#expense-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#expense-list th, #expense-list td {
+  padding: 10px;
+  text-align: left;
+}
+
+#expense-list th {
+  background-color: #333;
+  color: #fff;
+}
+
+#expense-list td {
+  border-bottom: 1px solid #ccc;
+}
+
+#expense-list .edit,
+#expense-list .delete {
+  display: inline-block;
+  padding: 6px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#expense-list .edit:hover,
+#expense-list .delete:hover {
+background-color: #555;
+}
+
+
